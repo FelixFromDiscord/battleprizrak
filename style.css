@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+body {
+	margin: 0;
+	overflow-x: hidden;
+	width: 100%;
+	background: gray;
+	font-family: 'Comfortaa', cursive;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #111;
+}
+
+.header,
+.header2 {
+	background: rgb(84,84,84);
+	color: white;
+	padding: 15px;
+	width: 102%;
+	margin-top: -15px;
+	z-index: -2;
+}
+
+.header {
+	background: linear-gradient(114deg, rgba(84,84,84,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.header h1 {
+	text-align: right;
+	padding-right: 250px;
+}
+
+.header2 {
+	background: linear-gradient(-114deg, rgba(84,84,84,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.header .h12 {
+	transform: rotate(-2deg);
+	padding-bottom: 7px;
+}
+
+.hbg {
+	padding-bottom: 5px;
+	background-color: dimgray;
+}
+
+.links {
+	border: 3px solid black;
+	display: block;
+	margin: auto 2.5% auto 2.5%;
+	margin-top: 1.5%;
+	font-size: 32px;
+}
+
+i {
+	font-size: 75px;
+}
+
+.links a {
+	margin-left: 25px;
+	vertical-align: top;
+	margin-top: 15px;
+	color: white;
+	padding-top: 15px;
+}
+
+
+.links {
+	margin-bottom: 15%;
+}
+
+.links h2 {
+	padding-left: 25%;
+}
+
+.bxl-twitch {
+	color: purple;
+}
+
+.bxl-youtube {
+	color: red;
+}
+
+.bx-dots-horizontal-rounded {
+	color: white;
+}
+
+#vid {
+	opacity: 0.3;
+	transition: 0.3s;
+	max-width: 50%;
+	max-height: 50%;
+	border-right: 3px solid black;
+	border-bottom: 3px solid black;
+}
+
+.invitation {
+	text-align: center;
+	background-color: dimgray;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	width: 75%;
+	border-radius: 10px;
+	margin-left: 12.5%;
+}
+
+.invitation span {
+	font-size: 22px;
+}
+
+.invitation a {
+	padding-top: 25px;
+	font-size: 32px;
+}
